@@ -1,0 +1,11 @@
+To initialize git repositary
+git init(it will create .git file)
+Hidden files/directories will start with '.(dot)'
+To the git status- git status-
+To create user name and email
+git config --global user.name "User name"
+git config --global user.email "email id"
+To check user created -> git config --list
+to update user details-> git config --global user.name "updated user name"
+we can't create two users
+Delete user -> git config --global --unset user.name and git config --global --unset user.email
